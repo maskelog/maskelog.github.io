@@ -6,40 +6,18 @@
     <description>Recent content in hugo on maskelog blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://maskelog.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Aug 2023 16:15:00 +0900</lastBuildDate><atom:link href="https://maskelog.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Creating a New Theme</title>
-      <link>https://maskelog.github.io/posts/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>Hugo로 시작하는 Github.io 블로그</title>
+      <link>https://maskelog.github.io/posts/my-first-posd/</link>
+      <pubDate>Mon, 07 Aug 2023 16:15:00 +0900</pubDate>
       
-      <guid>https://maskelog.github.io/posts/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://maskelog.github.io/posts/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://maskelog.github.io/posts/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at Install Hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
-Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:</description>
-    </item>
-    
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>https://maskelog.github.io/posts/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://maskelog.github.io/posts/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+      <guid>https://maskelog.github.io/posts/my-first-posd/</guid>
+      <description>Hugo로 시작하는 Github.io 개발공부 기록을 할 블로그 서비스를 찾아보다가 주소가 github.io로 끝나는 블로그들이 있어서 찾아보니 Github와 오픈소스 정적 사이트 생성 서비스를 사용하여 빠른 웹페이지 생성이 가능하다고 합니다.
+오픈소스 정적 사이트 생성 서비스는 Jekyll, Hexo, Gatsby, Hugo, VuePress 등이 있습니다.
+go언어를 사용한 Hugo가 궁금해서 테스트를 해봤습니다
+Hugo 설치 방법 (윈도우11 기준) https://gohugo.io/installation/windows/
+winget install Hugo.Hugo.Extended hugo version powershell을 열고 winget 명령어만 입력하면 간단하게 설치가 가능하고 환경변수도 자동으로 설정되었다 이후 정상적인 설치가 되었는지 확인 하는 명령어를 입력하였다</description>
     </item>
     
   </channel>
