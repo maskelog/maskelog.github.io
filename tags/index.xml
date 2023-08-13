@@ -6,11 +6,29 @@
     <description>Recent content in Tags on maskelog blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Mon, 07 Aug 2023 16:15:00 +0900</lastBuildDate><atom:link href="https://maskelog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Aug 2023 20:27:51 +0900</lastBuildDate><atom:link href="https://maskelog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JS</title>
+      <link>https://maskelog.github.io/tags/js/</link>
+      <pubDate>Sun, 13 Aug 2023 20:27:51 +0900</pubDate>
+      
+      <guid>https://maskelog.github.io/tags/js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>프론트엔드스쿨</title>
+      <link>https://maskelog.github.io/tags/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%EC%8A%A4%EC%BF%A8/</link>
+      <pubDate>Sun, 13 Aug 2023 20:27:51 +0900</pubDate>
+      
+      <guid>https://maskelog.github.io/tags/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%EC%8A%A4%EC%BF%A8/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>github</title>
       <link>https://maskelog.github.io/tags/github/</link>
-      <pubDate>Mon, 07 Aug 2023 16:15:00 +0900</pubDate>
+      <pubDate>Thu, 10 Aug 2023 16:15:00 +0900</pubDate>
       
       <guid>https://maskelog.github.io/tags/github/</guid>
       <description></description>
@@ -19,7 +37,7 @@
     <item>
       <title>hugo</title>
       <link>https://maskelog.github.io/tags/hugo/</link>
-      <pubDate>Mon, 07 Aug 2023 16:15:00 +0900</pubDate>
+      <pubDate>Thu, 10 Aug 2023 16:15:00 +0900</pubDate>
       
       <guid>https://maskelog.github.io/tags/hugo/</guid>
       <description></description>
