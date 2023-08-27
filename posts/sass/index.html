@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <title>Sass란 무었인가? // maskelog blog</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.116.1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="jihun han" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="/css/main.min.3c3c186cd62e563ad6e2f00a89dbee656ab912d1d46f856b5605dd0232521e2a.css" />
+
+    
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Sass란 무었인가?"/>
+<meta name="twitter:description" content="Sass란 무었인가? Sass(Syntactically Awesome StyleSheets)는 CSS로 컴파일 되는 스타일 시트 확장 언어이고 CSS 전처리기의 하나입니다.
+브라우저가 Sass를 직접 로딩하는것이 아닌 Sass로 개발을 하고 CSS로 익스포트 하는 과정을 거칩니다.
+브라우저가 직접 Sass를 읽는것이 아닌 CSS를 컴파일 하여 CSS 파일을 생성합니다.
+Sass를 사용하는 이유? 변수 사용: CSS에서는 기본적으로 변수를 지원하지 않습니다. Sass에서는 변수를 정의하여 스타일시트 전체에 걸쳐 색상, 폰트 크기, 여백 등의 값을 일관되게 유지할 수 있습니다.
+중첩(Nesting): Sass에서는 선택자의 중첩을 허용하여, CSS의 구조를 더 명확하고 읽기 쉽게 만들 수 있습니다."/>
+
+    <meta property="og:title" content="Sass란 무었인가?" />
+<meta property="og:description" content="Sass란 무었인가? Sass(Syntactically Awesome StyleSheets)는 CSS로 컴파일 되는 스타일 시트 확장 언어이고 CSS 전처리기의 하나입니다.
+브라우저가 Sass를 직접 로딩하는것이 아닌 Sass로 개발을 하고 CSS로 익스포트 하는 과정을 거칩니다.
+브라우저가 직접 Sass를 읽는것이 아닌 CSS를 컴파일 하여 CSS 파일을 생성합니다.
+Sass를 사용하는 이유? 변수 사용: CSS에서는 기본적으로 변수를 지원하지 않습니다. Sass에서는 변수를 정의하여 스타일시트 전체에 걸쳐 색상, 폰트 크기, 여백 등의 값을 일관되게 유지할 수 있습니다.
+중첩(Nesting): Sass에서는 선택자의 중첩을 허용하여, CSS의 구조를 더 명확하고 읽기 쉽게 만들 수 있습니다." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://maskelog.github.io/posts/sass/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-08-27T20:18:14+09:00" />
+<meta property="article:modified_time" content="2023-08-27T20:18:14+09:00" />
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="https://maskelog.github.io/"><img class="app-header-avatar" src="/avatar.jpg" alt="jihun han" /></a>
+      <span class="app-header-title">maskelog blog</span>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/tags/">Tags</a>
+      </nav>
+      <p>프론트엔드 주니어 개발자</p>
+      <div class="app-header-social">
+        
+          <a href="https://github.com/maskelog" target="_blank" rel="noreferrer noopener me">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>My Github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg>
+          </a>
+        
+          <a href="https://twitter.com/brainhackerz" target="_blank" rel="noreferrer noopener me">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <title>my twitter</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Sass란 무었인가?</h1>
+      <div class="post-meta">
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Aug 27, 2023
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          3 min read
+        </div>
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="https://maskelog.github.io/tags/sass/">Sass</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <h3 id="sass란-무었인가">Sass란 무었인가?</h3>
+<figure><img src="/images/Sass_Logo_Color.svg"/>
+</figure>
+
+<p>Sass(Syntactically Awesome StyleSheets)는 CSS로 컴파일 되는 스타일 시트 확장 언어이고 CSS 전처리기의 하나입니다.<br>
+브라우저가 Sass를 직접 로딩하는것이 아닌 Sass로 개발을 하고 CSS로 익스포트 하는 과정을 거칩니다.<br>
+브라우저가 직접 Sass를 읽는것이 아닌 CSS를 컴파일 하여 CSS 파일을 생성합니다.</p>
+<h4 id="sass를-사용하는-이유">Sass를 사용하는 이유?</h4>
+<ol>
+<li>
+<p><strong>변수 사용</strong>: CSS에서는 기본적으로 변수를 지원하지 않습니다. Sass에서는 변수를 정의하여 스타일시트 전체에 걸쳐 색상, 폰트 크기, 여백 등의 값을 일관되게 유지할 수 있습니다.</p>
+</li>
+<li>
+<p><strong>중첩(Nesting)</strong>: Sass에서는 선택자의 중첩을 허용하여, CSS의 구조를 더 명확하고 읽기 쉽게 만들 수 있습니다.</p>
+</li>
+<li>
+<p><strong>믹스인(Mixins)</strong>: 믹스인을 사용하면 CSS 선언을 재사용 가능한 방식으로 정의하고 여러 곳에 적용할 수 있습니다. 이를 통해 반복 코드를 줄이고 코드의 재사용성을 높일 수 있습니다.</p>
+</li>
+<li>
+<p><strong>Extend/Inheritance</strong>: 기존의 클래스 스타일을 다른 클래스에 상속하여 코드 중복을 줄일 수 있습니다.</p>
+</li>
+<li>
+<p><strong>조건문과 반복문</strong>: Sass는 <code>if</code>, <code>for</code>, <code>each</code>와 같은 제어 지시문을 제공하여, 복잡한 스타일시트를 더 유연하게 만들 수 있습니다.</p>
+</li>
+<li>
+<p><strong>함수</strong>: 내장 함수(색상 조절, 문자열 조작 등)를 제공하여 작업 효율성을 향상시킵니다. 사용자 정의 함수 생성도 가능합니다.</p>
+</li>
+<li>
+<p><strong>파일 분할 및 가져오기</strong>: Sass의 <code>@import</code> 지시문을 사용하여 여러 Sass 파일을 하나의 CSS 파일로 컴파일 할 수 있습니다. 이를 통해 프로젝트 구조를 더 모듈화하고 관리하기 쉽게 만들 수 있습니다.</p>
+</li>
+<li>
+<p><strong>커뮤니티 및 확장성</strong>: Sass는 넓은 사용자 기반이 있으며, 많은 라이브러리와 플러그인이 있어 확장성이 뛰어납니다.</p>
+</li>
+<li>
+<p><strong>성능 최적화</strong>: 불필요한 선택자나 속성을 제거하고, 효율적인 CSS를 생성하여 웹사이트의 로딩 성능을 향상시킬 수 있습니다.</p>
+</li>
+<li>
+<p><strong>컴파일 시 오류 확인</strong>: Sass를 컴파일 할 때 문제점이나 오류가 있으면 즉시 알려주므로, 오류를 빠르게 수정할 수 있습니다.</p>
+</li>
+</ol>
+<p>Sass는 이러한 기능들을 통해 CSS 작업의 복잡성을 줄이고, 큰 프로젝트에서도 스타일시트를 쉽게 관리할 수 있게 도와줍니다. 따라서 많은 웹 개발자들이 Sass와 같은 CSS 전처리기를 선호합니다.</p>
+<h4 id="sass-사용하는법">Sass 사용하는법</h4>
+<p><figure><img src="/images/live-Sass.png"/>
+</figure>
+
+<a href="https://sass-lang.com/install/">https://sass-lang.com/install/</a></p>
+<p>윈도우 환경에서는 Chocolatey 패키지 관리자를 통해 Dart Sass 설치와 VScode 익스텐션을 사용하는 방법이 있습니다.<br>
+저는 VScode에서 Live Sass Compiler를 사용하였습니다.</p>
+<p><figure><img src="/images/watch_Sass.png"/>
+</figure>
+
+Live Sass Compiler 사용법은 VScode하단 Status Bar에 Watch Sass라는 버튼이 생성되는데 여기를 누르고 Sass버튼을 누르고 sass를 저장하면 자동으로 컴파일이 되어 CSS파일을 생성해줍니다.</p>
+<h4 id="sass의-주요-특징">Sass의 주요 특징</h4>
+<ul>
+<li>Sass에서 변수 사용
+Sass에서는 &lsquo;$&rsquo; 기호를 사용하여 변수를 정의합니다.</li>
+</ul>
+<pre tabindex="0"><code>$primary-color: #333;
+body {
+  background-color: $primary-color;
+}
+</code></pre><ul>
+<li>중첩: 선택자의 중첩을 지원합니다.</li>
+</ul>
+<pre tabindex="0"><code>nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li { display: inline-block; }
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
+</code></pre><ul>
+<li>믹스인: 코드를 재사용하게 해주는 믹스인을 정의하고 @include를 사용하여 적용할 수 있습니다.</li>
+</ul>
+<pre tabindex="0"><code>@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+.box { @include transform(rotate(30deg)); }
+</code></pre><ul>
+<li>확장/상속: 다른 선택자의 스타일을 상속받을 수 있습니다.</li>
+</ul>
+<pre tabindex="0"><code>.message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+.success {
+  @extend .message;
+  border-color: green;
+}
+</code></pre><ul>
+<li>연산: 산술 연산자를 사용하여 값을 계산할 수 있습니다.</li>
+</ul>
+<pre tabindex="0"><code>.container {
+  width: 100%;
+  padding: 10px - 2px * 3;
+}
+</code></pre><ul>
+<li>
+<p>함수: 색상 조절, 문자열 조작 등의 내장 함수가 있으며 사용자 정의 함수도 작성할 수 있습니다.</p>
+</li>
+<li>
+<p>조건문 &amp; 반복문: @if, @for, @each, @while 등의 제어 지시문을 사용하여 더 복잡한 로직을 작성할 수 있습니다.</p>
+</li>
+<li>
+<p>모듈성: 여러 Sass 파일로 코드를 분할하고, @import 또는 최신의 @use 및 @forward 지시어를 사용하여 하나의 스타일시트로 병합할 수 있습니다.</p>
+</li>
+</ul>
+<h4 id="sass의-장점">Sass의 장점</h4>
+<p>Sass는 CSS 작업을 더욱 효율적이고 구조화된 방식으로 처리할 수 있게 도와줍니다. 복잡한 웹 프로젝트나 큰 규모의 애플리케이션에서 CSS 코드의 유지 보수와 확장성을 향상시키는데 큰 도움이 됩니다.</p>
+<p>Sass는 CSS를 더욱 강력하게 만들며, 개발자들이 더 나은 코드 구조를 가진, 재사용 가능하고, 유지 관리가 쉬운 스타일시트를 작성할 수 있게 합니다.</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>
