@@ -8,12 +8,12 @@
     <language>ko</language>
     <lastBuildDate>Sun, 27 Aug 2023 20:18:14 +0900</lastBuildDate><atom:link href="https://maskelog.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Sass란 무었인가?</title>
+      <title>Sass란 무엇인가?</title>
       <link>https://maskelog.github.io/posts/sass/</link>
       <pubDate>Sun, 27 Aug 2023 20:18:14 +0900</pubDate>
       
       <guid>https://maskelog.github.io/posts/sass/</guid>
-      <description>Sass란 무었인가? Sass(Syntactically Awesome StyleSheets)는 CSS로 컴파일 되는 스타일 시트 확장 언어이고 CSS 전처리기의 하나입니다.
+      <description>Sass란 무엇인가? Sass(Syntactically Awesome StyleSheets)는 CSS로 컴파일 되는 스타일 시트 확장 언어이고 CSS 전처리기의 하나입니다.
 브라우저가 Sass를 직접 로딩하는것이 아닌 Sass로 개발을 하고 CSS로 익스포트 하는 과정을 거칩니다.
 브라우저가 직접 Sass를 읽는것이 아닌 CSS를 컴파일 하여 CSS 파일을 생성합니다.
 Sass를 사용하는 이유? 변수 사용: CSS에서는 기본적으로 변수를 지원하지 않습니다. Sass에서는 변수를 정의하여 스타일시트 전체에 걸쳐 색상, 폰트 크기, 여백 등의 값을 일관되게 유지할 수 있습니다.
