@@ -6,7 +6,18 @@
     <description>Recent content on maskelog blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Sun, 27 Aug 2023 20:18:14 +0900</lastBuildDate><atom:link href="https://maskelog.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Sep 2023 21:52:54 +0900</lastBuildDate><atom:link href="https://maskelog.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>자바스크립트 비동기</title>
+      <link>https://maskelog.github.io/posts/asynchronous-js/</link>
+      <pubDate>Sun, 03 Sep 2023 21:52:54 +0900</pubDate>
+      
+      <guid>https://maskelog.github.io/posts/asynchronous-js/</guid>
+      <description>비동기프로그래밍이란? 자바스크립트는 싱글 스레드 언어이기 때문에 한 번에 하나의 작업만 처리할 수 있습니다. 시간이 많이 필요한 작업이 있다면 작업을 기다리는 동안 다른 코드가 실행되지 않는 문제가 발생하는데 이를 처리하기 위해서 자바스크립트는 비동기 처리를 사용합니다.
+비동기 처리를 사용하면, 시간이 오래 걸리는 작업은 백그라운드에 실행하고 해당 작업이 완료될 때 까지 기다리지 않고 다음 코드를 계속 실행할 수 있습니다.
+자바스크립트의 구성 요소 콜 스택(Call Stack): 코드에서 발생하는 함수 호출은 콜 스택에 차례로 쌓입니다. 함수가 완료되면 그 함수는 콜 스택에서 제거됩니다.</description>
+    </item>
+    
     <item>
       <title>Sass란 무엇인가?</title>
       <link>https://maskelog.github.io/posts/sass/</link>

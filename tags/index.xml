@@ -6,22 +6,31 @@
     <description>Recent content in Tags on maskelog blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Sun, 27 Aug 2023 20:18:14 +0900</lastBuildDate><atom:link href="https://maskelog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Sep 2023 21:52:54 +0900</lastBuildDate><atom:link href="https://maskelog.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JS</title>
+      <link>https://maskelog.github.io/tags/js/</link>
+      <pubDate>Sun, 03 Sep 2023 21:52:54 +0900</pubDate>
+      
+      <guid>https://maskelog.github.io/tags/js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>비동기프로그래밍</title>
+      <link>https://maskelog.github.io/tags/%EB%B9%84%EB%8F%99%EA%B8%B0%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</link>
+      <pubDate>Sun, 03 Sep 2023 21:52:54 +0900</pubDate>
+      
+      <guid>https://maskelog.github.io/tags/%EB%B9%84%EB%8F%99%EA%B8%B0%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Sass</title>
       <link>https://maskelog.github.io/tags/sass/</link>
       <pubDate>Sun, 27 Aug 2023 20:18:14 +0900</pubDate>
       
       <guid>https://maskelog.github.io/tags/sass/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>JS</title>
-      <link>https://maskelog.github.io/tags/js/</link>
-      <pubDate>Sun, 20 Aug 2023 20:19:25 +0900</pubDate>
-      
-      <guid>https://maskelog.github.io/tags/js/</guid>
       <description></description>
     </item>
     
