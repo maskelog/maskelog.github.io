@@ -2,16 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://maskelog.github.io/tags/js/</loc>
-    <lastmod>2023-09-03T21:52:54+09:00</lastmod>
+    <loc>https://maskelog.github.io/tags/canvas/</loc>
+    <lastmod>2023-09-10T22:17:31+09:00</lastmod>
+  </url><url>
+    <loc>https://maskelog.github.io/tags/html/</loc>
+    <lastmod>2023-09-10T22:17:31+09:00</lastmod>
+  </url><url>
+    <loc>https://maskelog.github.io/posts/canvas/</loc>
+    <lastmod>2023-09-10T22:17:31+09:00</lastmod>
   </url><url>
     <loc>https://maskelog.github.io/</loc>
-    <lastmod>2023-09-03T21:52:54+09:00</lastmod>
+    <lastmod>2023-09-10T22:17:31+09:00</lastmod>
   </url><url>
     <loc>https://maskelog.github.io/posts/</loc>
-    <lastmod>2023-09-03T21:52:54+09:00</lastmod>
+    <lastmod>2023-09-10T22:17:31+09:00</lastmod>
   </url><url>
     <loc>https://maskelog.github.io/tags/</loc>
+    <lastmod>2023-09-10T22:17:31+09:00</lastmod>
+  </url><url>
+    <loc>https://maskelog.github.io/tags/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%EC%8A%A4%EC%BF%A8/</loc>
+    <lastmod>2023-09-10T22:17:31+09:00</lastmod>
+  </url><url>
+    <loc>https://maskelog.github.io/tags/js/</loc>
     <lastmod>2023-09-03T21:52:54+09:00</lastmod>
   </url><url>
     <loc>https://maskelog.github.io/tags/%EB%B9%84%EB%8F%99%EA%B8%B0%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/</loc>
@@ -27,9 +39,6 @@
     <lastmod>2023-08-27T20:18:14+09:00</lastmod>
   </url><url>
     <loc>https://maskelog.github.io/posts/dom/</loc>
-    <lastmod>2023-08-20T20:19:25+09:00</lastmod>
-  </url><url>
-    <loc>https://maskelog.github.io/tags/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%EC%8A%A4%EC%BF%A8/</loc>
     <lastmod>2023-08-20T20:19:25+09:00</lastmod>
   </url><url>
     <loc>https://maskelog.github.io/tags/github/</loc>
