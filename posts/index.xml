@@ -6,7 +6,19 @@
     <description>Recent content in Posts on maskelog blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Sun, 10 Sep 2023 22:17:31 +0900</lastBuildDate><atom:link href="https://maskelog.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Sep 2023 21:54:25 +0900</lastBuildDate><atom:link href="https://maskelog.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>객체 지향 프로그래밍</title>
+      <link>https://maskelog.github.io/posts/object-oriented-programming/</link>
+      <pubDate>Sun, 24 Sep 2023 21:54:25 +0900</pubDate>
+      
+      <guid>https://maskelog.github.io/posts/object-oriented-programming/</guid>
+      <description>객체 지향 프로그래밍(Object-Oriented Programming, OOP) 프로그래밍에서 필요한 데이터를 추상화 시켜 상태와 행위를 가진 객체로 만들고, 객체들간의 상호작용을 통해 로직을 구성하는 프로그래밍 방법입니다. 대규모 프로젝트에서 프로그래밍 유지보수에 용이한 방식이다.
+객체지향 프로그래밍의 주요 특징 추상화 (Abstraction):
+정의: 복잡한 실세계의 개체를 프로그래밍에서 필요한 핵심 특징만을 간추려 표현하는 것. 예시: &amp;lsquo;자동차&amp;rsquo;라는 개체를 프로그래밍에 모델링할 때, 브랜드, 색상, 속도 등의 핵심 특징만을 표현하고, 제조 공정이나 재료 등의 세부 정보는 무시하는 것. 상속 (Inheritance):
+정의: 기존의 클래스에서 정의된 속성과 메서드를 새로운 클래스에 그대로 전달받아 사용하는 것.</description>
+    </item>
+    
     <item>
       <title>HTML 캔버스(Canvas)란?</title>
       <link>https://maskelog.github.io/posts/canvas/</link>
