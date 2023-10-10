@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>obsidian on maskelog blog</title>
+    <link>https://maskelog.github.io/tags/obsidian/</link>
+    <description>Recent content in obsidian on maskelog blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Thu, 05 Oct 2023 21:33:00 +0900</lastBuildDate><atom:link href="https://maskelog.github.io/tags/obsidian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo 블로그를 쉽게 포스팅하자! 옵시디언 활용기</title>
+      <link>https://maskelog.github.io/posts/obsidian-hugo/</link>
+      <pubDate>Thu, 05 Oct 2023 21:33:00 +0900</pubDate>
+      
+      <guid>https://maskelog.github.io/posts/obsidian-hugo/</guid>
+      <description>옵시디언을 사용한 Hugo 블로그 포스팅 </description>
+    </item>
+    
+  </channel>
+</rss>
