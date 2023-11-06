@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/final-08-PetLink/static/js/main.0a265eea.js",
+    "static/media/img-missing-report-map.png": "/final-08-PetLink/static/media/img-missing-report-map.0c79f67041f81848f573.png",
+    "static/media/img-share-info-map.png": "/final-08-PetLink/static/media/img-share-info-map.edecc450ab2a6c7b576d.png",
+    "static/media/img-walking-crew-map.png": "/final-08-PetLink/static/media/img-walking-crew-map.2684e996fd3028244a5d.png",
+    "static/media/img-user-siroo.jpg": "/final-08-PetLink/static/media/img-user-siroo.d674564e78c227c4c59e.jpg",
+    "static/media/logo-error.png": "/final-08-PetLink/static/media/logo-error.16de4a5e1b85d9f61d7e.png",
+    "index.html": "/final-08-PetLink/index.html",
+    "main.0a265eea.js.map": "/final-08-PetLink/static/js/main.0a265eea.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.0a265eea.js"
+  ]
+}
